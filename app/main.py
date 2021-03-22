@@ -29,11 +29,11 @@ def init():
 
 @app.route("/", methods=["GET", "POST"])
 def home():
-    return "<h1>hello Bell-App users<h1>"
+    return "<h1>hello WeBell-App users<h1>"
 
 @app.route("/health")
 def health():
-    return "<h3>Yes, I am Healthy and ALIVE! Thanks for checking!</h3>"
+    return "<h3>Yes, I am Healthy and ALIVE! Thanks for checking!   --   My name is WeBell App btw! :) </h3>"
 
 @app.route("/predict")
 def predict_home():
