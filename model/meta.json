@@ -1,0 +1,1 @@
+{"model_name": "sentiment_ovr_logistic", "model_version": "0.0.1", "columns": ["toxic", "severe_toxic", "obscene", "threat", "insult", "identity_hate"]}
